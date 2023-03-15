@@ -17,7 +17,7 @@
         <td>{{ employee.department }}</td>
         <td>{{ employee.salary }}</td>
         <td>
-          <button type="button" class="btn btn-primary" (click)="editEmployee(employee.id)">Edit</button>
+          <button type="button" class="btn btn-primary" (click)="updateEmployee(employee.id, employee.name, employee.department, employee.salary)">Edit</button>
           <button type="button" class="btn btn-danger" (click)="deleteEmployee(employee.id)">Delete</button>
           
         </td>
